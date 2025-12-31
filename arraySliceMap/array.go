@@ -27,8 +27,7 @@ func ArraySlice(){
 	fmt.Println("isso é o array principal", notasArray)
 	fmt.Println("isso é a fatia do array principal", notasFatiaArray, "sua capacidade é de ", cap(notasFatiaArray), "e esta preenchido com as posicoes", len(notasFatiaArray))
 
-	// notasSlice := []int{10, 11, 12}
-
+//	notasSlice := []int{10, 11, 12}
 	// fmt.Println("aqui temos ", cap(notasSlice), "e de tamanho temos ", len(notasSlice))
 
 	// notasSlice = append(notasSlice, 13)
