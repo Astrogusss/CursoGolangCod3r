@@ -36,7 +36,7 @@ func Titulos(lista ...string) <-chan string{
 				c <- peidao[1]
 			} else {
 				c <- "Error"
-			}
+		}
 		}(url)
 	}
 	return c
